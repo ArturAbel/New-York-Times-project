@@ -4,25 +4,25 @@
 
 @font-face {
    font-family: "Chomsky", serif;
-   src: url('/New-York-times-project/font/Chomsky.otf')
+   src: url('/font/Chomsky.otf')
    format('opentype');
 }
 @font-face {
    font-family: "Imperial", sans-serif;
-   src: url('/New-York-times-project/font/Imperial.ttf')
+   src: url('/font/Imperial.ttf')
    format('truetype');
 }
 @font-face {
    font-family: "Helvetica", sans-serif;
-   src: url('/New-York-times-project/font/Helvetica.ttf')
+   src: url('/font/Helvetica.ttf')
    format('truetype');
 }
 @font-face {
    font-family: "Cheltenham", sans-serif;
-   src: url('/New-York-times-project/font/Cheltenham.ttf')
+   src: url('/font/Cheltenham.ttf')
    format('truetype');
 }
 @font-face {
    font-family: 'CheltenhamStdBold';
-   src: url('/New-York-times-project/font/CheltenhamStdBold.ttf') format('truetype');
+   src: url('/font/CheltenhamStdBold.ttf') format('truetype');
  }
