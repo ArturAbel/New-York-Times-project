@@ -7,6 +7,8 @@
   --header-light: "Cheltenham", serif;
   --text: "Imperial", sans-serif;
   --read-time-font: "Helvetica", sans-serif;
+  --condensed-header: 'Cheltenham Cond Bold', serif;
+
 
   /* Background */
   --main-background: #ffffff;
@@ -14,7 +16,7 @@
 
   /* Text */
   --main-text: #121212;
-  --secondary-text: #121212;
+  --secondary-text: #5a5a5a;
   --link-text: #5a5a5a;
   --white-text: white;
   --google-text: #969696;

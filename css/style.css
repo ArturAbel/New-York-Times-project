@@ -330,7 +330,7 @@ img {
   max-height: 100%;
 }
 .side__column__container__top__content {
-  color: var(--link-text);
+  color: var(--secondary-text);
 }
 .side__column__container__headline {
   font-weight: 400;
@@ -341,7 +341,7 @@ img {
 
   &:hover {
     cursor: pointer;
-    color: var(--link-text);
+    color: var(--secondary-text);
   }
 }
 
@@ -386,7 +386,7 @@ img {
 
   &:hover {
     cursor: pointer;
-    color: var(--link-text);
+    color: var(--secondary-text);
   }
 }
 
