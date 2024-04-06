@@ -31,7 +31,8 @@ better understanding of layout design and improve our proficiency in web develop
 
 <a name="Link"></a>
 ### Link
-[Enter the link](https://6611369c42bea80008973463--the-new-york.netlify.app/)
+[Enter the link](https://6611369c42bea80008973463--the-new-york.netlify.app/)<br>
+[![img.png](https://i.postimg.cc/VsbkGXwV/img.png)](https://postimg.cc/Rq4mq6N7)
 
 <a name="What-Did-I-Learn?"></a>
 ### What Did I Learn?
