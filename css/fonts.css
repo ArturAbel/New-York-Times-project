@@ -23,6 +23,10 @@
    format('truetype');
 }
 @font-face {
-   font-family: 'CheltenhamStdBold';
+   font-family: "CheltenhamStdBold";
    src: url('/font/CheltenhamStdBold.ttf') format('truetype');
+ }
+ @font-face {
+   font-family: "Cheltenham Cond Bold";
+   src: url('/font/CheltenhamCondBold.ttf') format('truetype');
  }
