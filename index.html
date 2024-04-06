@@ -3,12 +3,328 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://kit.fontawesome.com/da5dd21fe5.js" crossorigin="anonymous"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/reset.css">
    <link rel="stylesheet" href="css/variables.css">
+   <link rel="stylesheet" href="css/utilities.css">
+   <link rel="stylesheet" href="css/fonts.css">
    <title>The New York Times-Breaking News, US News, World News and Videos</title>
 </head>
 <body>
-   
+   <!-- Google ad -->
+   <div id="bottom--grey--border" class="google__ad">
+    <div class="google__ad__text">
+      <span>Ads by</span>
+      <span class="google__img__container"><img src="/New-York-times-project/svg/google.svg" alt="google"></span>
+    </div>
+      <div class="google__ad__btn">
+         <button class="google__btn btn--blue">Send Feedback</button>
+         <button class="google__btn btn--grey">
+            Why this ad?
+            <i class="fa-solid fa-exclamation fa-2xs"></i>
+         </button>
+      </div>
+   </div>
+   <!-- Header & navbar -->
+      <header class="header">
+         <div class="header__top__bar">
+            <img src="/New-York-times-project/svg/glass.svg" alt="">
+            <ul class="header__top__bar__links">
+               <li id="bold"><a href="#">U.S.</a></li>
+               <li><a href="#">INTERNATIONAL</a></li>
+               <li><a href="#">CANADA</a></li>
+               <li><a href="#">ESPAÑOL</a></li>
+               <li><a href="#">中文</a></li>
+            </ul>
+            <div>
+               <button id="bold" class="header__top__bar__btn">SUBSCRIBE FOR $0.50/WEEK</button>
+               <button id="bold" class="header__top__bar__btn">LOG IN</button>
+          </div>
+         </div>
+         <div id="bottom--grey--border" class="header__mid__bar">
+            <div class="header__mid__bar__date">
+               <p id="bold">Friday,April 5 2024</p>
+               <p>Today’s Paper</p>
+            </div>
+            <h1>The New York Times</h1>
+            <div class="header__mid__bar__stock">
+               <p>S&P500</p>
+               <p id="font--red">-1.23%<i class="fa-solid fa-arrow-down-long"></i>
+               </p>
+            </div>
+         </div>
+         <ul id="bottom--double--border" class="header__bottom__bar">
+            <li><a href="">U.S.</a><i class="fa-solid fa-chevron-down fa-xs"></i></li>
+            <li><a href="">World</a><i class="fa-solid fa-chevron-down fa-xs"></i></li>
+            <li><a href="">Business</a><i class=" fa-solid fa-chevron-down fa-xs"></i></li>
+            <li><a href="">Arts</a><i class="fa-solid fa-chevron-down"></i></li>
+            <li><a href="">Lifestyle</a><i class="fa-solid fa-chevron-down fa-xs"></i></li>
+            <li><a href="">Opinion</a><i class="fa-solid fa-chevron-down fa-xs"></i></li>
+            <span id="mid--grey--divider--right"></span>
+            <li><a href="">Audio</a><i class="fa-solid fa-chevron-down fa-xs"></i></li>
+            <li><a href="">Games</a><i class="fa-solid fa-chevron-down fa-xs"></i></li>
+            <li><a href="">Cooking</a><i class="fa-solid fa-chevron-down fa-xs"></i></li>
+            <li><a href="">Wirecutter</a><i class="fa-solid fa-chevron-down fa-xs"></i></li>
+            <li><a href="">The Athletic</a><i class="fa-solid fa-chevron-down fa-xs"></i></li>
+         </ul>
+      </header>
+   </div>
+   <section class="grid__container">        
+      
+    <!-- Head content container -->
+    
+        <div>
+            <div id="bottom--grey--border" class="headline__container">
+             <div class="headline__container__content">
+               <div id="bottom--grey--border">
+                  <div id="font--red--light" class="content__time">
+                     <p id="bold">LIVE</p>
+                     <p>17m ago</p>
+                  </div>
+                  <p class="head__headline__container__headline">U.S. Jobs Report Shows Another Burst of Hiring</p>
+                  <p class="content__summary">Employers added 303,000 jobs in March, the Labor Department reported, in a sign of the economy’s strength. It was the 39th straight month of job growth.</p>
+                  <p class="content__see__more">See more updates <a id="cursor--hover" class="content__see__more__btn">1+</a></p>
+               </div>
+               <p class="content__see__more__sub__title">Immigration is helping to meet hiring demand, and may explain data mysteries.</p>
+               <p class="content__see__more__read__time">2 MIN READ</p>
+            </div>
+
+            <div class="headline__container__img">
+               <img src="/New-York-times-project/img/jobs.png" alt="">
+            </div>
+          </div>
+            <div id="bottom--grey--border--thick" class="headline__container__bottom">
+               <div>
+                  <p class="content__see__more__sub__title">Janet Yellen, the U.S. treasury secretary, faces a diplomatic test in urging China to curb its green energy exports.</p>
+                  <p class="content__see__more__read__time">6 MIN READ</p>
+               </div>
+               <span id="mid--grey--divider--right"></span>
+               <div>
+                  <p class="content__see__more__sub__title">The market may have finally hit a real record, but it could be a problem.</p>
+                  <p class="content__see__more__read__time">6 MIN READ</p>
+               </div>
+           </div>
+         </div>
+
+         <!-- Sub headlines container -->
+         <div id="bottom--grey--border--thick" class="sub__headline__container">
+            <div>
+                  <div>
+                    <div id="bottom--grey--border">
+                       <div id="font--red--light" class="content__time">
+                          <p id="bold">LIVE</p>
+                          <p>17m ago</p>
+                       </div>
+                       <p class="head__headline__container__headline">Israel Disciplines Officers Over World Central Kitchen Strike</p>
+                       <p class="content__summary">Two officers were removed from their posts and three commanders were reprimanded after drone strikes that killed seven aid workers, the Israel military said.</p>
+                       <p class="content__see__more">See more updates <a id="cursor--hover"  class="content__see__more__btn">9+</a></p>
+                    </div>
+                    <p>ANALYSIS</p>
+                    <p class="content__see__more__sub__title">After six months of war, some Israelis are asking: Is Benjamin Netanyahu dragging it out?</p>
+                    <p class="content__see__more__read__time">7 MIN READ</p>
+                 </div>
+            </div>
+            <div>
+               <div class="sub__headline__img__container">
+                  <h2>Inside a Father’s Struggle<br> in Gaza</h2>
+                  <img src="/New-York-times-project/img/father.jpeg" alt="">
+                  <img class="sub__headline__video__play__btn" src="/New-York-times-project/svg/play-video.svg" alt="">
+                  <p class="news__container__img__credit">Ang Li and Meg Felling</p>
+               </div>
+            </div>
+            <div>
+               <p class="head__headline__container__headline">Outrage Over Slain Aid Workers Deepens Democratic Resistance to Israel Aid</p>
+               <p class="content__summary">There is bipartisan support for arming Israel in Congress, but concerns among Democrats could further bog down an aid package that also includes Ukraine.</p>
+               <p class="content__see__more__read__time">4 MIN READ</p>
+            </div>
+         </div>
+         <div class="container__news__divider">
+            <p id="bold">Russian-Ukraine war</p>
+            <ul>
+               <li><a href="">Photos</a></li>
+               <li><a href="">Maps</a></li>
+               <li><a href="">Fearing Russian Hit Squads</a></li>
+               <li><a href="">41 Days in a Bunker</a></li>
+               <li><a href="">Collecting Russia's Dead</a></li>
+            </ul>
+         </div>
+         <!-- Old news containers -->
+         <div id="bottom--grey--border--thick" class="news__container">
+            <div>
+               <Div>
+                  <p class="head__headline__container__headline">Dwindling Ammunition Stocks Pose Grave Threat to Ukraine
+                  </p>
+                  <p class="content__summary">What few munition remains are often mismatched with battlefield needs as the country's forces gird for an expected Russian offensive this summer.
+                  </p>
+                  <p id="bottom--grey--border" class="content__see__more__read__time">5 MIN READ</p>
+             </Div>
+               <div>
+                  <p class="content__see__more__sub__title">NATO wants to show support for Ukraine, but only so much.
+                  </p>
+                  <p class="content__see__more__read__time">5 MIN READ</p>
+               </div>
+           </div>
+            <div>
+               <img class="news__container__img" src="/New-York-times-project/img/ukraine.jpeg" alt="ukraine">
+               <p class="news__container__img__credit">Nicole Tung from The New York Times</p>
+            </div>
+         </div>
+
+         <div id="bottom--grey--border--thick" class="news__container">
+            <div>
+               <Div>
+                  <p class="head__headline__container__headline">There's is an Explosion of Plastic Waste. Big Companies Say 'We've Got This.' </p>
+                  <p class="content__summary">Big brands like Procter & Gamble and Nestlé say new plants will help them meet environmental goals, but the technology is struggling to deliver.
+                  </p>
+                  <p id="bottom--grey--border" class="content__see__more__read__time">7 MIN READ</p>
+             </Div>
+               <div class="news__container__daily__audio">
+                  <p class="content__see__more__read__time"><span id="bold">THE DAILY</span> AUDIO</p>
+                  <p class="content__see__more__sub__title">Can the world engineer its way out of the climate crisis?</p>
+                  <div class="audio__gif__container">
+                    <img id="cursor--hover" src="/New-York-times-project/svg/speaker.svg" alt="">
+                    <div>
+                        <img id="cursor--hover" class="audio__gif__container__soundwave" src="/New-York-times-project/gif/audio.gif" alt="">
+                    </div>
+                    <p class="content__see__more__read__time">1:15</p>
+                  </div>
+               </div>
+               <div class="news__container__listen__episode">
+                  <img id="cursor--hover" src="/New-York-times-project/svg/play-audio-small.svg" alt="">
+                  <span>Listen to the full episode</span>
+               </div>
+           </div>
+            <div>
+               <img class="news__container__img" src="/New-York-times-project/img/plastic.jpeg" alt="ukraine">
+               <p class="news__container__img__credit">Maddle McGravy from The New York Times</p>
+            </div>
+         </div>
+
+         <!-- Side section -->
+         <div id="mid--grey--divider--left" class="side__column">
+            <div class="side__column__container__top">
+               <div class="side__column__container__top__img">
+                     <img src="/New-York-times-project/img/japanese.jpeg" alt="">
+                  <p class="news__container__img__credit">Japanese American National Museum</p>
+              </div>
+               <div class="side__column__container__top__content">
+                  <h1 class="side__column__container__headline">Women Who Made Art in Japanese Internment Camps Are Getting Their Due</h1>
+                  <p class="content__summary">A traveling exhibit will focus on the work of three Japanese American women artists, Hisako Hibi, Miki Hayakawa and Miné Okubo.</p>
+                  <p id="bottom--grey--border" class="content__see__more__read__time">4 MIN READ</p>
+               </div>
+               <div id="bottom--grey--border--thick" class="side__column__container__top__grid">
+                  <div>
+                     <img src="/New-York-times-project/img/snake.jpeg" alt="snake">
+                     <p class="content__see__more__sub__title">This is how a snake uses its sense of smell.</p>
+                     <p class="content__see__more__read__time">4 MIN READ</p>
+                  </div>
+                  <div id="mid--grey--divider--right" class="side__column__mid__divider"></div>
+                  <div>
+                     <img src="/New-York-times-project/img/coach.jpeg" alt="snake">
+                     <p class="content__see__more__sub__title">UConn’s coach uses a $40 portable washer on his lucky underwear. Here’s how well it works.</p>
+                     <p class="content__see__more__read__time">FROM WIRECUTTER</p>
+                  </div>
+                  <div class="side__column__container__side__arrow">
+                     <img src="/New-York-times-project/svg/arrow-left.svg" alt="right">
+                     <img src="/New-York-times-project/svg/arrow-right.svg" alt="left">
+                  </div>
+               </div>
+            </div>
+
+            <!-- Opinion section -->
+            <div>
+               <h1>Opinion</h1>
+               <p class="side__column__opinion__author">LYDIA POLGREEN</p>
+               <div class="side__column__opinion__container">
+                  <p class="side__column__opinion__container__title">Three Democratic Senators Are Stuck Indulging an Outdated Fantasy</p>
+                  <img class="side__column__opinion__logo" src="/New-York-times-project/img/LYDIA.png" alt="author">
+               </div>
+               <p id="bottom--grey--border" class="content__see__more__read__time">6 MIN READ</p>
+            </div>
+            <div id="bottom--grey--border"            class="side__column__opinion__img__container">
+              <p class="side__column__opinion__author">KATHLEEN LENIHAN AND MAUREEN LENIHAN RUST</p>
+              <p class="side__column__opinion__container__title">Our Mom Is 75. We’re Moving Heaven and Earth for This Eclipse.</p>
+              <p id="bottom--grey--border" class="content__see__more__read__time">5 MIN READ</p>
+              <img src="/New-York-times-project/img/eclipse.jpeg" alt="eclipse">
+              <p class="news__container__img__credit">Wesley Allsbrook</p>
+            </div>
+            <div>
+               <p class="side__column__opinion__author">ROSS DOUTHAT</p>
+               <div class="side__column__opinion__container">
+                  <p class="side__column__opinion__container__title">The Birth Dearth and the Smartphone Age</p>
+                  <img class="side__column__opinion__logo" src="/New-York-times-project/img/ross.png" alt="author">
+               </div>
+               <p id="bottom--grey--border" class="content__see__more__read__time">8 MIN READ</p>
+            </div>
+            <div>
+               <p class="side__column__opinion__author">PAULA CHAKRAVARTTY AND VASUKI NESIAH</p>
+               <div class="side__column__opinion__container">
+                  <p class="side__column__opinion__container__title">Is This the End of Academic Freedom?</p>
+               </div>
+               <p id="bottom--grey--border" class="content__see__more__read__time">6 MIN READ</p>
+            </div>
+            <div>
+               <p class="side__column__opinion__author">FARAH STOCKMAN</p>
+               <div class="side__column__opinion__container">
+                  <p class="side__column__opinion__container__title">30 Years After the Rwandan Genocide, We Need International Justice More Than Ever</p>
+                  <img class="side__column__opinion__logo" src="/New-York-times-project/img/FARAH.png" alt="author">
+               </div>
+               <p id="bottom--grey--border" class="content__see__more__read__time">2 MIN READ</p>
+            </div>
+          
+            <div id="bottom--grey--border" class="side__column__opinion__img__row__container">
+               <div>
+                  <p class="side__column__opinion__author">AMANDA JAYATISSA</p>
+                  <p class="side__column__opinion__container__title">The Rage in ‘Carrie’ Feels More Relevant Than Ever</p>
+                  <p class="content__see__more__read__time">5 MIN READ</p>
+               </div>
+               <div>
+                  <img src="/New-York-times-project/img/stressed.webp" alt="eclipse">
+               </div>
+             </div>
+
+             <div>
+               <p class="side__column__opinion__author">DAVID WALLACE-WELLS</p>
+               <div class="side__column__opinion__container">
+                  <p class="side__column__opinion__container__title">We Need a New Way of Measuring Earthquakes</p>
+                  <img class="side__column__opinion__logo" src="/New-York-times-project/img/david.png" alt="author">
+               </div>
+               <p id="bottom--grey--border" class="content__see__more__read__time">2 MIN READ</p>
+            </div>
+
+            <div>
+               <p class="side__column__opinion__author">LETTERS FROM OUR READERS</p>
+               <div class="side__column__opinion__container">
+                  <p class="side__column__opinion__container__title">Sensible Ways to Fight Terrorism</p>
+               </div>
+               <p id="bottom--grey--border" class="content__see__more__read__time">5 MIN READ</p>
+            </div>
+
+            <div id="bottom--grey--border--thick">
+               <div class="side__column__opinion__row__container ">
+                  <div>
+                     <p class="side__column__opinion__author">PETER COY</p>
+                     <p class="side__column__opinion__container__title">If A.I. Takes All Our Jobs, Will It Also Take Our Purpose?</p>
+                     <p class="content__see__more__read__time">4 MIN READ</p>
+                  </div>
+                  <div class="side__column__mid__divider__bottom"></div>
+                  <div>
+                     <p class="side__column__opinion__author">PAUL KRUGMAN</p>
+                     <p class="side__column__opinion__container__title">Why Some Billionaires Will Back Trump</p>
+                     <p class="content__see__more__read__time">4 MIN READ</p>
+                  </div>
+               </div>
+               <div id="margin-bottom" class="side__column__container__side__arrow">
+                  <img src="/New-York-times-project/svg/arrow-left.svg" alt="right">
+                  <img src="/New-York-times-project/svg/arrow-right.svg" alt="left">
+               </div>
+            </div>
+         
+         </div>
+   </section>
 </body>
 </html>

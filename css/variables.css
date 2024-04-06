@@ -1,0 +1,25 @@
+
+:root{
+   
+   /* Fonts */
+   --google-font: 'Ariel', sans-serif;
+   --links:'Libre Franklin', sans-serif;
+   --ny-font: 'Chomsky', serif;
+   --header:'CheltenhamStdBold', sans-serif;
+   --header-light:'Cheltenham', serif ;
+   --text:'Imperial', sans-serif;
+   --read-time-font:'Helvetica', sans-serif;
+
+   /* Background */
+   --main-background: #ffffff;
+   --google-background: #f8f8f8;
+
+   /* Text */
+   --main-text: #121212;
+   --secondary-text: #121212;
+   --link-text: #5A5A5A;
+   --white-text: white;
+   --google-text: #969696;
+
+}
+
