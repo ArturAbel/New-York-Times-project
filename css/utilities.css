@@ -1,0 +1,115 @@
+
+
+/* Content */
+.content__time{
+   font-family: var(--links);
+   display: flex;
+   gap: 1rem;
+   font-size: 1.1rem;
+}
+.head__headline__container__headline{
+   font-family: var(--header);
+   font-size: 2rem;
+   line-height: 1.2em;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+.content__see__more__sub__title{
+   margin-top: 1rem;
+   line-height: 1.3em;
+   font-family:var(--header);
+   font-size: 1.4rem;  
+   letter-spacing: 0.6px;
+   font-weight: 600;
+}
+.content__summary{
+   line-height: 1.3em;
+   margin-top: 1rem;
+   font-family: var(--text);
+   font-size: 1.4rem;
+   color: var(--summary-text);
+}
+.content__see__more{
+   margin-top: 0.2rem;
+   margin-bottom: 1rem;
+   font-size: 1.2rem;
+   font-family:var(--links);
+}
+.content__see__more__btn{
+   border: 1px solid black;
+   border-radius: 45%;
+   padding: 0 3px;
+   font-size: 1rem;
+   font-weight: bold;
+   background-color: #363636;
+   color: var(--white-text);
+   margin-left: 0.5rem;
+}
+.content__see__more__read__time{
+   font-family:var(--read-time-font);
+   letter-spacing: 0.5px;
+   font-weight: 200;
+   font-size: 1rem;
+   color: var( --main-text);
+   padding-top: 0.5rem;
+   padding-bottom: 1rem;
+}
+.news__container__img__credit{
+   text-align: right;
+   font-family: var(--links);
+   font-size: 0.8rem;
+}
+/* Old news containers */
+
+.news__container{
+   grid-column: 1;
+   display: grid;
+   grid-template-columns: 1fr 1.8fr;
+   padding-top: 1rem;
+   padding-bottom: 2rem;
+}
+.news__container__img{
+   max-width: 100%;
+   max-height: 100%;
+}
+
+
+/* Style IDs */
+
+/* Font */
+#bold{
+   font-weight: bold;
+}
+#font--red{
+   color: #A61B1E;
+}
+#font--red--light{
+   color: #DB001A;
+}
+
+/* Lines */
+#bottom--grey--border{
+   border-bottom: 1px solid rgb(219, 219, 219);
+}
+#bottom--grey--border--thick{
+   border-bottom: 1.2px solid #121212;
+}
+#bottom--double--border{
+   border-bottom: 3px double rgb(0, 0, 0);
+}
+#mid--grey--divider--right{
+   border-right: 1px solid rgb(219, 219, 219);
+}
+#mid--grey--divider--left{
+   border-left: 1px solid rgb(219, 219, 219);
+}
+/* Margin */
+#margin-bottom{
+   margin-bottom: 2rem;
+}
+
+/* Links */
+#cursor--hover{
+   cursor: pointer;
+}
+
