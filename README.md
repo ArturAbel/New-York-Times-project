@@ -11,7 +11,7 @@ by recreating the first sections of The New York Times website.
 ## Table of Content
 1. [Objective.](#Objective)
 2. [Roadmap.](#Roadmap)
-3. [Link.](#Image)
+3. [Image.](#Image)
 4. [What Did I Learn.](#What-Did-I-Learn?)
 
 
