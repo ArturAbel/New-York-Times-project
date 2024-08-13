@@ -11,7 +11,7 @@ by recreating the first sections of The New York Times website.
 ## Table of Content
 1. [Objective.](#Objective)
 2. [Roadmap.](#Roadmap)
-3. [Link.](#Link)
+3. [Link.](#Image)
 4. [What Did I Learn.](#What-Did-I-Learn?)
 
 
@@ -29,9 +29,8 @@ better understanding of layout design and improve our proficiency in web develop
 - [x] Add CSS variables and utilities.
 - [x] Make it responsive.
 
-<a name="Link"></a>
-### Link
-[Enter the link](https://6611369c42bea80008973463--the-new-york.netlify.app/)<br>
+<a name="Image"></a>
+### Image
 [![img.png](https://i.postimg.cc/VsbkGXwV/img.png)](https://postimg.cc/Rq4mq6N7)
 
 <a name="What-Did-I-Learn?"></a>
